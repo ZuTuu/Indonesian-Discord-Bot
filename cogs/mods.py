@@ -7,10 +7,7 @@ import json
 class mods(commands.Cog):
     def __init__(self, client):
         self.client = client
-
-    # @commands.command(name="cek")
-    # async def _ceke(self, ctx):
-    #     print(ctx.guild.id)
+        
     @commands.command(name="purge")
     async def _purge(self, ctx, *, amount=0):
         if(amount < 1):
@@ -94,10 +91,6 @@ class mods(commands.Cog):
     async def _unban(self, ctx, *, member):
         banned_users = await ctx.guild.bans()
         member_name, member_tag = member.split('#')
-
-        # if(member.id == ctx.message.author.id):
-        #     await ctx.send(f"Sumpah lu nape dah <@{ctx.author.id}>")
-        #     return
 
         for ban_entry in banned_users:
             user  = ban_entry.user
