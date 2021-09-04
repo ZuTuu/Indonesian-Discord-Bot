@@ -13,11 +13,6 @@ seting = ""
 @client.event
 async def on_ready():
     print('Bot {0.user}  ready'.format(client))
-    # with open("./data/681839310693335044.json", "r") as f:
-    #     data = json.load(f)
-    #     if(data["confirmation"] > 1):
-    #         print("ye")
-
 
 @client.event
 async def on_guild_join(guild):
@@ -29,7 +24,7 @@ async def on_guild_join(guild):
     else:
         shutil.copyfile("./data/default.json", f"./data/{guildid}.json")
 
-
+#for loading and unloading cogs
 @client.command()
 async def unload(ctx, ext):
     client.unload_extension(f"cogs.{ext}")
