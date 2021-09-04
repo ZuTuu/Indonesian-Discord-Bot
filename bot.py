@@ -7,7 +7,7 @@ import shutil
 # import json
 
 client = commands.Bot(command_prefix='>')
-token = "ODgzMzc4MDQ0NTM3MDMyNzA0.YTJD6g.bLM8wqpwhpaeHQwfIZT68h3Th3g"
+token = "your mother"
 seting = ""
 
 @client.event
