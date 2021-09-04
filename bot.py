@@ -44,8 +44,5 @@ async def reload(ctx, ext):
 for filename in os.listdir("./cogs"):
     if filename.endswith(".py"):
         client.load_extension(f"cogs.{filename[:-3]}")
-#
-# for filename in os.litdir("./data"):
-#     if filename.endswith(".json")
 
 client.run(token)
