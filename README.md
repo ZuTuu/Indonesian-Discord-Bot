@@ -8,9 +8,9 @@ It's like every discord bot but in Indonesian
 - Purge
 - Unban
 - purge
+- music
 
 # TBA
-- music
 - lock channel
 - Osu bot (if possible)
 - text translation
