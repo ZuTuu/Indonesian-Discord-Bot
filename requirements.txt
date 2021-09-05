@@ -1,4 +1,5 @@
 discord.py
-asyncio
-shutil
-json
+youtube_dl
+PyNaCl
+google-api-python-client
+discord-pretty-help
