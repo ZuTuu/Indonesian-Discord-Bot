@@ -1,5 +1,5 @@
 # Indonesian-Discord-Bot
-IN PROGRESS
+IN PROGRESS (16-04-2024: nah im dropping this project unoriginal ass bot)
 It's like every discord bot but in Indonesian
 
 # Features
